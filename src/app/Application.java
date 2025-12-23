@@ -8,7 +8,7 @@ public class Application {
     private final CardService cardService;
     private final Scanner scanner = new Scanner(System.in);
 
-    private User currentUser; // 🔑 текущая сессия
+    private User currentUser;
 
     public Application(AuthService authService, CardService cardService) {
         this.authService = authService;
